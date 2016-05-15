@@ -1,0 +1,14 @@
+.container {
+    height: 95%;
+}
+.jumbotron {
+    height: 100%;
+}
+li {
+    font-size: 1.4em;
+}
+footer {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}

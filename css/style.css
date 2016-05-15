@@ -5,6 +5,7 @@ body {
 }
 body .container {
 	color: #00868B;
+    text-shadow: 4px 2px 5px #000;
 	text-shadow: #000 1px 0px, #000 1px 1px, #000 0px 1px, #000 -1px 1px, #000 -1px 0px, #000 -1px -1px, #000 0px -1px, #000 1px -1px;
 }
 body .home-page p,
@@ -40,7 +41,7 @@ footer p {
 .home-page {
     height: 855px;  
     padding-top: 50px;
-	  padding-bottom: 300px;
+    padding-bottom: 300px;
     text-align: center;
     background: url("http://res.cloudinary.com/crazylittled/image/upload/v1455125991/bg-home-page_meoh3b.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -59,7 +60,7 @@ footer p {
 }
 .welcome > h2 {
 	font-size: 5em;
-	text-shadow: #000 2px 0px, #000 2px 2px, #000 0px 2px, #000 -2px 2px, #000 -2px 0px, #000 -2px -2px, #000 0px -2px, #000 2px -2px;
+/*	text-shadow: #000 2px 0px, #000 2px 2px, #000 0px 2px, #000 -2px 2px, #000 -2px 0px, #000 -2px -2px, #000 0px -2px, #000 2px -2px;*/
 
 }
 ul.social-buttons > li {
