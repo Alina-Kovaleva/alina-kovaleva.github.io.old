@@ -149,6 +149,9 @@ ul.social-buttons > li:last-child {
 .fa {
 	color: #FFF;
 }
+.container .link-in-text{
+    color: #00868B;
+}
 footer p {
 	text-shadow: none;
 	padding-top: 10px;
