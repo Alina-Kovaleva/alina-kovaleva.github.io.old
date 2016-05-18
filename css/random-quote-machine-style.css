@@ -1,0 +1,80 @@
+.bg-color {
+    height: 100%;
+/*     height: 1010px; */
+    padding-top: 50px;
+    padding-bottom: 298px;
+    text-align: center;
+    background: url("http://res.cloudinary.com/crazylittled/image/upload/v1456523734/quote-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    font-family: serif;
+}
+.quote-bg {
+	margin: 100px auto;
+  padding: 20px 20px;
+	text-align: center;
+}
+.bg-color h1 {
+    color: aliceblue;
+    font-size: 6em;
+}
+.content {
+    font-size: 2em;
+    color: #fff;
+}
+.author {
+    color: #fff;
+    font-size: 1.6em;
+}
+.footer {
+    color: #fff;
+    text-align: left;
+    padding-left: 50px;
+    position: fixed;
+    bottom:0;
+}
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin:0;
+}
+nav.navbar, footer {
+	background: #68838B;
+}
+.navbar-top {
+    font-size: 16px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #607B8B;
+	color: #000;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 background: #B4CDCD;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #98F5FF;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence, cursive;
+	font-size: 1.8em;
+}
+footer {
+    font-size: 1.5em;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    padding-left: 1%;
+    padding-top: 5px;
+    
+}

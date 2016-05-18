@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: url('http://res.cloudinary.com/crazylittled/image/upload/v1461673804/wood_texture_by_xsweetsmile-d47lgxn_yjfgs3.png') no-repeat center center fixed;
+	background-size: cover;
+}
+button {
+    height: 50px;
+    border: none;
+}
+.calculator {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #654321;
+    border-radius: 3%;
+    border: 5px ridge black;
+}
+.button{
+    margin: 2px;
+    width: 64.75px;
+    cursor: pointer;
+    background-color: #CD853F;
+    border-radius: 15%;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: black;
+    border: 1px outset black;
+}
+.button:hover{
+    background-color: #d79d65;
+    }
+.button:active{
+    border: 2px inset black;
+    background-color: #d29152;
+    }
+.btn-leng {
+    width: 47%;
+    border-radius: 7%;
+}
+.textbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    text-align: right;
+    border: none;
+    height: 45px;
+    width: 275px;
+    background-color: #B7410E;
+    color:darkblue;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 2%;
+    border: 3px inset black;
+    
+}
+nav.navbar, footer {
+	background: #68838B;
+}
+.navbar-top {
+    font-size: 16px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #607B8B;
+	color: #000;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 background: #B4CDCD;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #98F5FF;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence, cursive;
+	font-size: 1.8em;
+}
+footer {
+    font-size: 1.5em;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    padding-left: 1%;
+    padding-top: 5px;
+    
+}

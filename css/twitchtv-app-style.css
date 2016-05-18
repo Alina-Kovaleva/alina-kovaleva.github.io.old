@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url("http://res.cloudinary.com/crazylittled/image/upload/v1458223085/TwitchTv-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.bg-color .container{
+    margin-top: 100px;
+    height: auto;
+}
+
+.container h1 {
+  font-family: cursive;
+  font-weight: 900;
+  text-align: center;
+  font-size: 4em;
+  color: aliceblue;
+}
+ul {
+  list-style-type: none;
+  background-color: floralwhite;
+}
+
+li:hover {
+  background-color:#831EB2;
+  color: aliceblue;
+}
+.menu li {
+  font-size: 1.4em;
+  font-weight: 800;
+/*  font-family: cursive;*/
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: calc((100% - 50px) / 3);
+}
+.selected {
+  background-color: #831EB2;
+  color: aliceblue;
+}
+.streamers li {
+  margin: 0 auto;
+  border-top: 1px solid Grey;
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+
+}
+.streamers img {
+  height: 100%;
+}
+.name {
+  color: black;
+  font-size: 1.5em;
+  position: absolute;
+  margin: 15px 10px;
+  text-transform: capitalize;
+}
+li p {
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+  line-height: 1.2em;
+  margin: 20px 10px 15px 10px;
+  font-size: 1.3em;
+  width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.online {
+  border-right: 7px solid DodgerBlue;
+}
+.online p {
+  color: DodgerBlue;
+}
+.offline {
+  border-right: 7px solid Grey;
+}
+.offline p {
+  color: grey;
+  font-weight: 300;
+}
+.hidden {
+  display: none;
+}
+.filtered {
+  display: none;
+}
+nav.navbar, footer {
+	background: #68838B;
+}
+.navbar-top {
+    font-size: 16px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #607B8B;
+	color: #000;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 background: #B4CDCD;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #98F5FF;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence, cursive;
+	font-size: 1.8em;
+}
+footer {
+    padding-top: 5px;;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    padding-left: 50px;
+    bottom:0;
+}

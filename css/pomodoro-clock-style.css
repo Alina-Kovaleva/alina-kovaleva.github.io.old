@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url('http://res.cloudinary.com/crazylittled/image/upload/v1461847680/pomodoro1_zx5pfp.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.container-page {
+    margin-left: 45%;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+.container-page h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  font-family:serif;
+  color: darkred;
+}
+.selection-btn-container {
+  color: darkred;
+  font-weight: 700;
+}
+.selection-btn button{
+  width: 60px;
+  background: none;
+  border: 1px solid darkred;
+  border-radius: 6px;
+}
+.break-btn, .session-btn {
+  display: inline-block;
+
+}
+#clockboard {
+  padding-top: 1em;
+  display: inline-block;
+  text-align: center;
+  margin-bottom:1em;
+  border: 7px solid black;
+  border-radius: 10px;
+  padding: 10%;
+  margin-top: 2%;
+  background: url('http://res.cloudinary.com/crazylittled/image/upload/v1462451668/wood__texture1568.jpg') no-repeat ;
+  background-size: cover;
+  font-size: 1.5em;
+  color: #FF0000;
+  font-weight: 700;
+  text-shadow: #000 2px 0px, #000 2px 2px, #000 0px 2px, #000 -2px 2px, #000 -2px 0px, #000 -2px -2px, #000 0px -2px, #000 2px -2px;
+}
+.clock-btn button {
+  background: none;
+  border: 1px solid darkred;
+  border-radius: 6px;
+  color: darkred;
+  font-weight: 700;
+  width: 150px;
+}
+nav.navbar, footer {
+	background: #68838B;
+}
+.navbar-top {
+    font-size: 16px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #607B8B;
+	color: #000;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 background: #B4CDCD;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #98F5FF;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence, cursive;
+	font-size: 1.8em;
+}
+footer {
+    font-size: 1.5em;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    padding-left: 1%;
+    padding-top: 5px;
+    
+}

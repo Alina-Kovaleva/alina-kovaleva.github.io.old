@@ -1,0 +1,89 @@
+body {
+  background: url("http://res.cloudinary.com/crazylittled/image/upload/v1457373996/weather-bg.jpg") no-repeat center center fixed;;
+  background-size: cover;
+}
+.container-page {
+/*  float: right;*/
+    margin-left: 50%;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#temp {
+    font-size: 2em;
+    color: #ecf0f1;
+}
+
+.container-page h1 {
+      color: white;
+      font-size: 6em;
+      line-height: 1em;
+      text-shadow: 2px 3px 4px black;
+      font-family: SEGOE UI;
+      font-style: italic;
+}
+#temp{
+      font-size: 4em;
+      color: white;
+      text-shadow: 2px 2px 3px black;
+      margin: .4em 0 .2em 0;
+}
+.inform-board {
+      font-size: 1.6em;
+      display: inline-block;
+      color: white;
+      background: rgba(0,0,0,.4);
+      margin: 1em;
+      padding: 1.6em;
+      min-width: 10em;
+      max-width: 20em;
+      border-radius: 1em;
+      vertical-align: middle;
+      letter-spacing: .1em;
+      overflow: hidden;
+}
+.ccontainer-page button {
+      background-color: black;
+      color: white;
+}
+
+
+nav.navbar, footer {
+	background: #68838B;
+}
+.navbar-top {
+    font-size: 16px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #607B8B;
+	color: #000;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 background: #B4CDCD;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #98F5FF;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence, cursive;
+	font-size: 1.8em;
+}
+footer {
+    font-size: 1.5em;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    padding-left: 1%;
+    padding-top: 5px;
+    
+}

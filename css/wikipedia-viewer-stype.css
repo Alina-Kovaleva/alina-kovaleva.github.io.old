@@ -1,0 +1,128 @@
+body {
+  background: url("http://res.cloudinary.com/crazylittled/image/upload/v1457789320/wiki-viewer-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.container-page {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+}
+.random-search {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.container-page .btn {
+  padding: 10px 50px;
+  background-color:dimgray;
+  font-size: 1.5em;
+  font-family: cursive;
+  color: aliceblue;
+  width: 100%;
+}
+
+.container-page .form-group {
+  width: 100%;
+  height: auto;
+  left: 0;
+  right: 0;
+}
+
+#search-box {
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  margin-left: 0;
+  background-color: white;
+}
+.container-page .search-btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5em;
+  font-family: cursive;
+  background-color: dimgray;
+  color: aliceblue;
+}
+
+.results {
+  width: 100%;
+  min-height: 100px;
+  background-color: lightgrey;
+  box-shadow: 5px 5px 2px Grey;
+  border-left: 10px solid gray;
+  margin: auto;
+  padding-bottom: 10px;
+  opacity: 0.9;
+}
+
+.results:hover {
+  background-color: dimgray;
+  color: aliceblue;
+  border-left: 10px solid black;
+}
+
+.results a {
+  color: black;
+  font-family: cursive;
+  text-decoration: none;
+  outline: none;
+}
+.results a:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.results {
+  position: relative;
+  -webkit-animation: resultsAnimation 1s;
+}
+
+@-webkit-keyframes resultsAnimation {
+  0% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.9;
+  }
+}
+nav.navbar, footer {
+	background: #68838B;
+}
+.navbar-top {
+    font-size: 16px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #607B8B;
+	color: #000;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 background: #B4CDCD;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #98F5FF;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence, cursive;
+	font-size: 1.8em;
+}
+footer {
+    font-size: 1.5em;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    padding-left: 1%;
+    padding-top: 5px;
+    
+}
+
