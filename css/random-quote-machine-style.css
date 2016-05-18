@@ -1,6 +1,5 @@
 .bg-color {
     height: 100%;
-/*     height: 1010px; */
     padding-top: 50px;
     padding-bottom: 298px;
     text-align: center;
@@ -26,13 +25,6 @@
 .author {
     color: #fff;
     font-size: 1.6em;
-}
-.footer {
-    color: #fff;
-    text-align: left;
-    padding-left: 50px;
-    position: fixed;
-    bottom:0;
 }
 body,
 html {
