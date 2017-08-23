@@ -7,7 +7,7 @@ $(document).ready(function(){
   $('#C').on('click', function(){
     $('.textbox').val('');
   });
-  $('#←').on('click', function(){
+  $('#backspace').on('click', function(){
     var texboxVal = $('.textbox').val();
     if (texboxVal !== '') {
       var temp = texboxVal.substring(0,texboxVal.length-1);

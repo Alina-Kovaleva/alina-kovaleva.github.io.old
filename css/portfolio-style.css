@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+body .container {
+	color: #4E4E4E;
+}
+.screen-height {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.auto-height {
+    height: auto;
+}
+body .home-page p,
+.contacts-page p,
+.about-me p {
+	font-size: 2em;
+}
+nav.navbar, footer {
+	background: #E9E4E4;
+}
+.navbar-top {
+    font-size: 20px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #E9E4E4;
+	color: #4E4E4E;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 color: #64CFD3;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #4E4E4E;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence;
+	font-size: 1.8em;
+}
+
+.portfolio-page {
+	padding: 150px 0;
+    background-color: #E9E4E4;
+}
+#portfolio .portfolio-divider {
+	padding: 20px 0px;
+}
+.portfolio-page h1{
+	font-size: 5em;
+	
+}
+.portfolio-page h3 {
+	font-size: 2.5em;
+}
+.portfolio-page hr, .contacts-page hr{
+	border-top: 3px solid #000;
+}
+.portfolio-page .project-img {
+	border: 2px solid #000;
+	border-radius: 25%;
+	display: inline-block;
+	font-size: 60px;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	width: 140px;
+
+}
+.portfolio-page .project-img:hover {
+	border: 3px solid #64CFD3;
+}
+.portfolio-page h4 {
+	font-size: 2.1em;
+}
+.portfolio-page a{
+    color: #4E4E4E;
+}
+.portfolio-page a:hover, 
+.portfolio-page a:focus {
+    color: #64CFD3;
+    text-decoration: none;
+}
+.portfolio-page .row p {
+	font-size: 1em;
+}
+footer p {
+	text-shadow: none;
+	padding-top: 10px;
+}

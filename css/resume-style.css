@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+body .container {
+	color: #4E4E4E;
+}
+.screen-height {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.auto-height {
+    height: auto;
+}
+body .home-page p,
+.contacts-page p,
+.about-me p {
+	font-size: 2em;
+}
+nav.navbar, footer {
+	background: #E9E4E4;
+}
+.navbar-top {
+    font-size: 20px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #E9E4E4;
+	color: #4E4E4E;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 color: #64CFD3;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #4E4E4E;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence;
+	font-size: 1.8em;
+}
+.resume-page {
+    padding: 150px 0;
+    background-color: #E9E4E4;
+}
+.img-decor {
+	border-radius: 50%;
+	border: 1px outset #00868B;
+}
+.none-mark{
+    list-style-type:none;
+}
+
+ul li{
+    font-size: 110%;
+}
+.none-mark h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+footer p {
+    position: absolute;
+    bottom: 0;
+	text-shadow: none;
+	padding-top: 10px;
+}

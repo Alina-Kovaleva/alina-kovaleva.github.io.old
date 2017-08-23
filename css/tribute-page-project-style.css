@@ -1,14 +1,38 @@
-.container {
-    height: 95%;
-}
+
 .jumbotron {
     height: 100%;
 }
-li {
+.t-p-p-f-fcc li {
     font-size: 1.4em;
 }
+nav.navbar, footer {
+	background: #E9E4E4;
+}
+.navbar-top {
+    font-size: 20px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #E9E4E4;
+	color: #4E4E4E;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 color: #64CFD3;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #4E4E4E;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence;
+	font-size: 1.8em;
+}
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    padding-top: 15px;
-    margin-bottom: 10px;
 }

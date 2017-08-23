@@ -4,168 +4,62 @@ body {
 	height: 100%;
 }
 body .container {
-	color: #00868B;
-    text-shadow: 4px 2px 5px #000;
-	text-shadow: #000 1px 0px, #000 1px 1px, #000 0px 1px, #000 -1px 1px, #000 -1px 0px, #000 -1px -1px, #000 0px -1px, #000 1px -1px;
+	color: #4E4E4E;
 }
-.screen-height {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-}
-.auto-height {
-    height: auto;
-}
+
 body .home-page p,
 .contacts-page p,
 .about-me p {
 	font-size: 2em;
 }
 nav.navbar, footer {
-	background: #68838B;
+	background: #E9E4E4;
 }
 .navbar-top {
-    font-size: 16px;
+    font-size: 20px;
 }
 .navbar-top ul.navbar-nav li a {
-	background: #607B8B;
-	color: #000;
+	background: #E9E4E4;
+	color: #4E4E4E;
 	text-shadow: none;
 }
 .navbar-top ul.navbar-nav li a:hover,
 .navbar-top ul.navbar-nav li a:focus
  {
-	 background: #B4CDCD;
+	 color: #64CFD3;
 }
 .navbar-header a.navbar-brand small,
 .navbar-header a.navbar-brand big,
 footer p {
-	color: #98F5FF;
+	color: #4E4E4E;
 }
 .navbar-header a.navbar-brand big {
-	font-family:Florence, cursive;
+	font-family:Florence;
 	font-size: 1.8em;
 }
 .home-page { 
-    padding-top: 50px;
-    padding-bottom: 300px;
+    padding-top: 20%;
     text-align: center;
-    background: url("http://res.cloudinary.com/crazylittled/image/upload/v1455125991/bg-home-page_meoh3b.jpg") no-repeat center center fixed;
-	background-size: cover;
-}
-.welcome {
-	position: relative;
-	padding-top: 20%;
-	padding-bottom: 20%;
-	font-family: Arial, sans-serif;
-}
-.welcome > h1 {
-	font-size: 11em;
-	font-weight: 800;
-	
-	text-shadow: 4px 2px 5px #000;
-}
-.welcome > h2 {
-	font-size: 5em;
-/*	text-shadow: #000 2px 0px, #000 2px 2px, #000 0px 2px, #000 -2px 2px, #000 -2px 0px, #000 -2px -2px, #000 0px -2px, #000 2px -2px;*/
-
-}
-ul.social-buttons > li {
-	display: block;
-	margin-bottom: 20px;
-	padding: 0;
-}
-ul.social-buttons > li:last-child {
-	margin-bottom: 0;
-}
-.btn {
-	display: inline-block;
-}
-.home-page .btn-default, .contacts-page .btn-default {
-	background-color: #00868B;  
-}
-.about-me {
-	background: url("http://res.cloudinary.com/crazylittled/image/upload/v1455125998/bg-about-page_te7ybd.jpg") no-repeat center center fixed;
-	background-size: cover;
-	padding: 8% 0;
-}
-.about-me h1 {
-	font-size: 4em;
-}
-.about-me-page p {
-	margin-top: 100px;
+    background: #E9E4E4;
+    height: 100%;
 }
 .img-decor {
-	margin-top: 150px;
-	border-radius: 15%;
+	border-radius: 50%;
 	border: 1px outset #00868B;
 }
-.portfolio-page {
-	padding: 150px 0;
-	background: url("http://res.cloudinary.com/crazylittled/image/upload/v1455126014/bg-portfolio-page_kwtz3y.jpg") no-repeat center center fixed;
-	background-size: cover;
+.link-color{
+    color: #E9E4E4;
 }
-#portfolio .portfolio-divider {
-	padding: 20px 0px;
+.home-links, .links-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 9%;
+/*    background-color: #E63758;*/
+    background-color: #00868B;
+    color: #E9E4E4;
 }
-.portfolio-page h1{
-	font-size: 5em;
-	
-}
-.portfolio-page h3 {
-	font-size: 2.5em;
-}
-.portfolio-page hr, .contacts-page hr{
-	border-top: 3px solid #000;
-}
-.portfolio-page .project-img {
-	border: 2px solid #000;
-	border-radius: 25%;
-	display: inline-block;
-	font-size: 60px;
-	height: 140px;
-	line-height: 140px;
-	text-align: center;
-	vertical-align: middle;
-	width: 140px;
-
-}
-.portfolio-page .project-img:hover {
-	border: 3px solid #00868B;
-}
-.portfolio-page h4 {
-	font-size: 1.6em;
-}
-.portfolio-page .row p {
-	font-size: 1em;
-}
-.contacts-page {
-/*	height: 655px;*/
-	background: url("http://res.cloudinary.com/crazylittled/image/upload/v1455126021/bg-contacts-page_iecgjn.jpg") no-repeat center center fixed;
-	background-size: cover;
-    padding: 8% 0;
-}
-.contacts-page h1 {
-	font-size: 8em;
-    
-}
-.contacts-page p {
-    font-size: 2.5em;
-    font-weight: 900;
-/*
-    color: black;
-    text-shadow: #FFF 1px 0px, #FFF 1px 1px, #FFF 0px 1px, #FFF -1px 1px, #FFF -1px 0px, #FFF -1px -1px, #FFF 0px -1px, #FFF 1px -1px;
-*/
-}
-.fa {
-	color: #FFF;
-}
-.container .link-in-text{
-    color: #00868B;
-}
-footer p {
-	text-shadow: none;
-	padding-top: 10px;
+.home-links a:hover,
+.home-links a:focus {
+    color: #64CFD3;
+    text-decoration:none;
 }

@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+    color: #4E4E4E;
+}
+
+body .home-page p,
+.contacts-page p,
+.about-me p {
+	font-size: 2em;
+}
+nav.navbar, footer {
+	background: #E9E4E4;
+}
+.navbar-top {
+    font-size: 20px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #E9E4E4;
+	color: #4E4E4E;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 color: #64CFD3;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #4E4E4E;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence;
+	font-size: 1.8em;
+}
+.contacts-page {
+    height: 100%;
+    background-color: #E9E4E4;
+    padding: 150px 0;
+}
+.contacts-page-content1 {
+    font-size: 50px;
+    padding-top: 20%;
+    font-weight: 700;
+}
+.contacts-page-content2{
+    padding-top: 20%;
+    font-size: 10px; 
+}
+
+.contacts-page-content3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.hr {
+    color: #E9E4E4;
+    height: 10px;
+}
+.contacts-page-social_btn{
+    text-align: center;
+}
+.contacts-page-social_btn a, .contacts-page-content2 a{
+    color: #00868B;
+}
+.contacts-page-social_btn a:hover,
+.contacts-page-social_btn a:focus,
+.contacts-page-content2 a:hover,
+.contacts-page-content2 a:focus {
+    color: #64CFD3;
+}
+
+footer p {
+    position: absolute;
+    bottom: 0;
+	padding-top: 10px;
+}

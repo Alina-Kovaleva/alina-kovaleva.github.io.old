@@ -1,0 +1,481 @@
+body {
+/*
+    background: url('http://res.cloudinary.com/crazylittled/image/upload/v1461673503/wood_texture.jpg') no-repeat center center fixed;
+	background-size: cover;
+    margin: 0;
+*/
+/*
+	width: 100%;
+	height: 100%;
+*/
+    background-color:chocolate;
+}
+
+nav.navbar, footer {
+	background: #E9E4E4;
+}
+.navbar-top {
+    font-size: 20px;
+}
+.navbar-top ul.navbar-nav li a {
+	background: #E9E4E4;
+	color: #4E4E4E;
+	text-shadow: none;
+}
+.navbar-top ul.navbar-nav li a:hover,
+.navbar-top ul.navbar-nav li a:focus
+ {
+	 color: #64CFD3;
+}
+.navbar-header a.navbar-brand small,
+.navbar-header a.navbar-brand big,
+footer p {
+	color: #4E4E4E;
+}
+.navbar-header a.navbar-brand big {
+	font-family:Florence;
+	font-size: 1.8em;
+}
+/*
+.contentsContainer {
+    margin-top: 15%;
+}
+.gameContainer {
+    position: relative;
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: gray;
+}
+.gameCell{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    margin: 20px;
+    pointer-events: none;
+}
+.gameCell:active {
+    opacity: .5;
+}
+#btnGreen {
+    top: 0;
+    left: 0;
+    background-color: green;
+    border-radius: 100% 0 0 0;
+}
+#btnRed {
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 0 100% 0 0;
+}
+#btnYellow {
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    border-radius: 0 0 0 100%;
+}
+#btnBlue {
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    border-radius: 0 0 100% 0;
+}
+.board-game {
+    position: absolute;
+    background-color: white;
+    border: 20px solid grey;
+    width: 200px;
+    height: 200px;
+    top: 120px;
+    left: 120px;
+    border-radius: 50%;
+}
+.gameTitle {
+    height: 70px;
+    line-height: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.countBox {
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 50.3px;
+}
+.countDisplay {
+    border: solid 3px black;
+    border-radius: 20%;
+    height: 50%;
+    margin: 0px 6px 0px 6px;
+    background: red;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.countTitle {
+    height: 30%;
+    margin: 4px 6px 0px 6px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.game-counter {
+    opacity: 0.3;
+}
+.startBox {
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 50.4px;
+}
+.btnStart {
+    border: solid 3px black;
+    border-radius: 50%;
+    height: 50%;
+    margin: 0px 12.7px 0px 12.7px;
+    background: red;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+}
+.startTitle {
+    height: 30%;
+    margin: 4px 6px 0px 6px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.strictBox {
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 50.4px;
+}
+.btnStrict {
+    border: solid 3px black;
+    border-radius: 50%;
+    height: 50%;
+    width: 25px;
+    margin: 0px 12.5px 0px 12.5px;
+    background: yellow;
+    color: black;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+.strictTitle {
+    height: 30%;
+    margin: 4px 6px 0px 6px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.onTitle {
+    vertical-align: top;
+    display: inline-block;
+    height: 40px;
+    line-height: 25px;
+    width: 60px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+.powerSwitch {
+    background: grey;
+    vertical-align: top;
+    display: inline-block;
+    border: solid 1px black;
+    margin-top: 5px;
+    height: 15px;
+    width: 30px;
+}
+.btnOn {
+    visibility: hidden;
+    background: blue;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 15%;
+    margin: 1px 2.8px 0px 1px;
+    height: 10px;
+    width: 12px;
+}
+
+.btnOff {
+    background: blue;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 15%;
+    margin: 1px 0px 0px 0px;
+    height: 10px;
+    width: 12px;
+}
+.offTitle {
+    vertical-align: top;
+    display: inline-block;
+    height: 40px;
+    line-height: 25px;
+    width: 60px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+*/
+
+
+
+.container-game {
+    padding-top: 8%;
+    text-align: center;
+}
+.board-game {
+    position: relative;
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.cell {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    margin: 20px;
+}
+.red {
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 0 100% 0 0;
+}
+.green {
+    top: 0;
+    left: 0;
+    background-color: green;
+    border-radius: 100% 0 0 0;
+}
+.blue {
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    border-radius: 0 0 100% 0;
+}
+.yellow {
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    border-radius: 0 0 0 100%;
+}
+
+.cell-blink {
+    background-color: coral;
+}
+.controlsDisplay {
+    position: absolute;
+    background-color: white;
+    border: 20px solid grey;
+    width: 200px;
+    height: 200px;
+    top: 120px;
+    left: 120px;
+    border-radius: 50%;  
+}
+.gameTitle {
+    height: 70px;
+    line-height: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;    
+}
+.countBox {
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 50.3px;
+}
+.countDisplay {
+    border: solid 3px black;
+    border-radius: 20%;
+    height: 50%;
+    margin: 0px 6px 0px 6px;
+    background: red;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.countTitle {
+    height: 30%;
+    margin: 4px 6px 0px 6px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.startBox {
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 50.4px;
+}
+.btnStart {
+    border: solid 3px black;
+    border-radius: 50%;
+    height: 50%;
+    margin: 0px 12.7px 0px 12.7px;
+    background: red;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+}
+.btnStart:hover {
+    background: green;
+}
+.startTitle {
+    height: 30%;
+    margin: 4px 6px 0px 6px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+.btn {
+    height: 57px;
+    width: 250px;
+    margin-bottom: 20px;
+    background-color: #25C4BF; 
+    color: #000;
+    font-size: 1.8em;
+    font-weight: 700;
+    border: 2px solid #FFFFF; 
+    border-radius: 6px;
+}
+*/
+
+/*onoffswitch*/
+
+.container-game .onoffswitch, .normalstrictswitch {
+    margin-left: 45%;
+    margin-bottom: 20px;
+    text-align:left;
+}
+.onoffswitch, .normalstrictswitch {
+    position: relative; 
+    width: 169px;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+}
+.onoffswitch-checkbox, .normalstrictswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label, .normalstrictswitch-label {
+    display: block; 
+    overflow: hidden; 
+    cursor: pointer;
+    border: 2px solid #FFFFF; 
+    border-radius: 6px;
+}
+.onoffswitch-inner, .normalstrictswitch-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after, .normalstrictswitch-inner:before, .normalstrictswitch-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 57px; 
+    padding: 0; 
+    line-height: 57px;
+    font-size: 40px; 
+    color: white; 
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 21px;
+    background-color: #00868B; 
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 21px;
+    background-color: #25C4BF; 
+    color: #000;
+    text-align: right;
+}
+.onoffswitch-switch, .normalstrictswitch-switch {
+    display: block; 
+    width: 48px; 
+    margin: 4.5px;
+    background: #FFFFFF;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 108px;
+    border: 2px solid #FFFFF; 
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner, .normalstrictswitch-checkbox:checked + .normalstrictswitch-label .normalstrictswitch-inner{
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch,  .normalstrictswitch-checkbox:checked + .normalstrictswitch-label .normalstrictswitch-switch{
+    right: 0px; 
+}
+
+normalStrictSwitch
+
+.normalstrictswitch-inner:before, .normalstrictswitch-inner:after {
+    font-size: 20px; 
+}
+.normalstrictswitch-inner:before {
+    content: "STRICT";
+    padding-left: 15px;
+    background-color: #00868B; 
+    color: #000000;
+}
+.normalstrictswitch-inner:after {
+    content: "NORMAL";
+    padding-right: 15px;
+    background-color: #25C4BF; 
+    color: #000000;
+    text-align: right;
+}
+.normalstrictswitch-switch {
+    width: 45px; 
+    margin: 6px;
+    right: 102px;
+}
+
+footer {
+    font-size: 1.5em;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    padding-left: 1%;
+    padding-top: 5px;
+    
+}
+
+

@@ -34,6 +34,7 @@ html, body {
 }
 #clockboard {
   padding-top: 1em;
+  width: 400px;
   display: inline-block;
   text-align: center;
   margin-bottom:1em;
@@ -57,28 +58,28 @@ html, body {
   width: 150px;
 }
 nav.navbar, footer {
-	background: #68838B;
+	background: #E9E4E4;
 }
 .navbar-top {
-    font-size: 16px;
+    font-size: 20px;
 }
 .navbar-top ul.navbar-nav li a {
-	background: #607B8B;
-	color: #000;
+	background: #E9E4E4;
+	color: #4E4E4E;
 	text-shadow: none;
 }
 .navbar-top ul.navbar-nav li a:hover,
 .navbar-top ul.navbar-nav li a:focus
  {
-	 background: #B4CDCD;
+	 color: #64CFD3;
 }
 .navbar-header a.navbar-brand small,
 .navbar-header a.navbar-brand big,
 footer p {
-	color: #98F5FF;
+	color: #4E4E4E;
 }
 .navbar-header a.navbar-brand big {
-	font-family:Florence, cursive;
+	font-family:Florence;
 	font-size: 1.8em;
 }
 footer {
