@@ -53,7 +53,7 @@ footer p {
 .home-links, .links-text {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 9%;
+    margin-top: 5%;
 /*    background-color: #E63758;*/
     background-color: #00868B;
     color: #E9E4E4;
@@ -62,4 +62,10 @@ footer p {
 .home-links a:focus {
     color: #64CFD3;
     text-decoration:none;
+}
+.home-links-content{
+    width: 100% !important;
+}
+.col-xs-4 {
+    color: #E9E4E4;
 }
