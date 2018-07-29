@@ -50,7 +50,7 @@ function newQuote(){
     var text = data.quoteText;
     var author = data.quoteAuthor;
     if (author === '') {
-      author = 'Автор неизвестен';
+      author = 'Author unknown';
     }
     $(".quote").hide().html('<p class="content"><em>"' + text +'"</em></p>' + ' <br><p class="author"> ' + author + ' </p> ').fadeIn('slow');
     $('.tweet-quote').attr('href', 'https://twitter.com/intent/tweet?text=' + '"' + text + '"' + ' - ' + author);
