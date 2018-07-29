@@ -46,7 +46,7 @@
 // })
 
 function newQuote(){
-  $.getJSON( "https://api.forismatic.com/api/1.0/?method=getQuote&lang=ru&format=jsonp&jsonp=?", function( data ) {
+  $.getJSON( "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function( data ) {
     var text = data.quoteText;
     var author = data.quoteAuthor;
     if (author === '') {
