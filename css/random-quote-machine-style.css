@@ -1,7 +1,7 @@
 .bg-color {
-    height: 100%;
+    height: 1010px;
     padding-top: 50px;
-    padding-bottom: 298px;
+    padding-bottom: 300px;
     text-align: center;
     background: url("https://res.cloudinary.com/crazylittled/image/upload/v1456523734/quote-bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -11,7 +11,7 @@
 }
 .quote-bg {
 	margin: 100px auto;
-  padding: 20px 20px;
+	padding: 40px 40px;
 	text-align: center;
 }
 .bg-color h1 {
@@ -26,47 +26,10 @@
     color: #fff;
     font-size: 1.6em;
 }
-body,
-html {
-  height: 100%;
-  padding: 0;
-  margin:0;
-}
-nav.navbar, footer {
-	background: #E9E4E4;
-}
-.navbar-top {
-    font-size: 20px;
-}
-.navbar-top ul.navbar-nav li a {
-	background: #E9E4E4;
-	color: #4E4E4E;
-	text-shadow: none;
-}
-.navbar-top ul.navbar-nav li a:hover,
-.navbar-top ul.navbar-nav li a:focus
- {
-	 color: #64CFD3;
-}
-.navbar-header a.navbar-brand small,
-.navbar-header a.navbar-brand big,
-footer p {
-	color: #4E4E4E;
-}
-.navbar-header a.navbar-brand big {
-	font-family:Florence;
-	font-size: 1.8em;
-}
-footer {
-    font-size: 1.5em;
-    color: #000;
+.footer {
+    color: #fff;
+    text-align: left;
+    padding-left: 50px;
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    
-}
-footer p {
-    padding-left: 1%;
-    padding-top: 5px;
-    
+    bottom:0;
 }
