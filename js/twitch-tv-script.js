@@ -1,4 +1,4 @@
-var streamers = ["freecodecamp", "bobross", "shroud", "rudeism", "starladder_pubg_ru", "drainys"];
+var streamers = ["freecodecamp", "storbeck", "habathcx","RobotCaleb","noobs2ninjas"];
 
 var noImg = 'http://res.cloudinary.com/crazylittled/image/upload/v1458133730/no-user-image_dph8go.gif';
 
