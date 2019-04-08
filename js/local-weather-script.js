@@ -1,13 +1,13 @@
 
 $(document).ready(function(){
-  $.getJSON("http://ipinfo.io", function(ipAPI) {
+  $.getJSON("https://ipinfo.io", function(ipAPI) {
     var city = ipAPI.city;
     var country = ipAPI.country;
     var cor = ipAPI.loc.split(',')
     var lat = cor[0];
     var lon = cor[1];
     var appid = '5ce5d089fc7200d0e199f246c845bbb7';
-    var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?lat=" 
+    var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" 
     + lat + "&lon=" + lon + "&units=metric" + "&APPID=" + appid;
 
     $.getJSON(weatherUrl, function(weather){
